@@ -3,6 +3,7 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  position: fixed;
 }
 
 h1 {
@@ -12,4 +13,45 @@ h1 {
 nav li {
   display: inline-block;
   text-decoration: underline;
+}
+
+div {
+  border: 1px black;
+}
+
+.column {
+  display: flex;
+}
+
+.large, .medium, .small {
+  display: flex;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.main {
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+}
+
+.middle {
+  display: inline-flex;
+}
+
+.large-middle-left {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+}
+
+.large-middle-right {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
 }
